@@ -1,6 +1,6 @@
 // Middleware for logging requests
 
-import { Context, Next } from "https://deno.land/x/oak@v12.5.0/mod.ts";
+import { Context, Next } from "oak";
 
 /**
  * Logger middleware to log HTTP requests

@@ -1,6 +1,6 @@
 // Main router file that combines all routes
 
-import { Router } from "https://deno.land/x/oak@v12.5.0/mod.ts";
+import { Router } from "oak";
 import itemsRouter from "./items.ts";
 import filesRouter from "./files.ts";
 

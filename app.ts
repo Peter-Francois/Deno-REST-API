@@ -1,6 +1,6 @@
 // Main application entry point for Deno REST API
 
-import { Application } from "https://deno.land/x/oak@v12.5.0/mod.ts";
+import { Application } from "oak";
 import { logger } from "./middleware/logger.ts";
 import { errorHandler } from "./middleware/errorHandler.ts";
 import router from "./routes/index.ts";

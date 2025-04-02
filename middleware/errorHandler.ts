@@ -1,6 +1,6 @@
 // Middleware for handling errors
 
-import { Context, Next, isHttpError } from "https://deno.land/x/oak@v12.5.0/mod.ts";
+import { Context, Next, isHttpError } from "oak";
 
 /**
  * Global error handler middleware
